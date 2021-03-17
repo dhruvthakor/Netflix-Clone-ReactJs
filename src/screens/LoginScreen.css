@@ -1,0 +1,295 @@
+
+.loginScreen_background {
+  position: relative;
+  height: 100%;
+  width: auto;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+    center no-repeat;
+  background-size: cover;
+  display: block;
+  background-attachment: fixed;
+}
+
+.loginScreen_logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.loginScreen_button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.loginScreen_gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.3) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginScreen_body {
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.loginScreen_body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+
+.loginScreen_body > h2 {
+  font-size: 1.625rem;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+.loginScreen_body > h3 {
+  opacity: 0.7;
+  font-size: 0.9rem;
+  margin: 20px 0;
+}
+
+/* .email-form {
+  max-width: 950px;
+  padding-top: .85rem;
+  display: flex;
+  flex-direction: column;
+} */
+
+.loginScreen_input > form > input {
+  padding: 10px 20px;
+  outline-width: 0;
+  height: 60px;
+  width: 50%;
+  border: none;
+  max-width: 600px;
+  font-size: 1rem;
+}
+.loginScreen_input {
+  margin: 20px;
+}
+
+.loginScreen_getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  height: 62px;
+  transition: all 0.5s ease;
+}
+.loginScreen_getStarted:hover,
+.loginScreenButton:hover {
+  background-color: #bd2121;
+}
+
+
+.moreSignUpScreen {
+  width: 100%;
+  background-color: #000;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  top: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 10px solid rgb(43, 43, 43);
+}
+.moreScreenSection {
+  margin-top: 200px;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  border-bottom: 10px solid rgb(43, 43, 43);
+  padding-bottom: 200px;
+}
+.smallLoginScreenSection {
+  margin-right: 200px;
+  max-width: 500px;
+  text-align: left;
+}
+.smallLoginScreenSection > h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.smallLoginScreenSection > h2 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.moreScreenSection > img {
+  width: 500px;
+  margin-right: 100px;
+}
+.faqSection {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+.faqSection > h1 {
+  font-size: 3rem;
+}
+.faqContainer {
+  margin-top: 100px;
+  width: 815px;
+  height: fit-content;
+  padding: 0%;
+  
+}
+.questionActual {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #303030;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+.questionActual > h2 {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+.questionActual > .MuiSvgIcon-root {
+  font-size: 36px !important;
+}
+.loginScreenFooterInput {
+  min-width: 500px;
+}
+.faqSection > h3 {
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.loginPageFooter {
+  border-top: 10px solid rgb(43, 43, 43);
+  width: 100%;
+  padding: 100px 0 10px 0;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginPageFooter > h5 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 40%;
+  text-align: left;
+}
+.loginPageFooter > h5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.loginScreenFooterRowContainer {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.loginPageFooterLinkRow > p {
+  cursor: pointer;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.loginPageFooterLinkRow > p:hover {
+  text-decoration: underline;
+}
+.loginPageLanguageSelection {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid rgb(82, 82, 82);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  transform: translateX(-300%);
+}
+.copyrightTextLoginPage {
+  transform: translateX(-70%);
+  margin-top: 20px;
+}
+/* / media queries */
+@media (max-width: 962px) {
+  .loginScreen{
+    width: 100%;
+    height: auto;
+  }
+  .loginScreen_body{
+    padding: 70px 45px;
+  }
+  .loginScreen_body > h1 {
+    font-size: 2.5rem;
+  }
+  .loginScreen_input > form > input {
+    max-width: 1050px;
+    padding-top: .85rem;
+  }
+  .faqSection .faqContainer {
+    width: 75%;
+    margin: 2em auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .loginScreen{
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg") center no-repeat;
+  }
+  .loginScreenBody > h1 {
+    font-size: 2rem;
+  }
+  .loginScreenBody > h2 {
+    font-size: 1.1rem;
+  }
+  .loginScreenInput > form > input {
+    width: 50%;
+  }
+}
+@media (max-width: 453px) {
+  .loginScreenInput > form > input {
+    width: 50%;
+  }
+  .loginScreenGetStarted {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+}
+
